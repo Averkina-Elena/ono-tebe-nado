@@ -1,8 +1,6 @@
 .page {
-    /* width: 100%; */
     max-width: 1100px;
-    /* margin: 0 auto; */
-    padding-bottom: 82.410px;
+    /* padding-bottom: 82.410px; */
 }
 
 .header {
@@ -14,7 +12,7 @@
 
 .header__menu {
     width: 393px;
-    margin-left: 31px;
+    margin-left: 28px;
     align-self: center;
 }
 
@@ -71,6 +69,7 @@
     background-image: url(../images/cover.jpg);
     width: 1100px;
     min-height: 757px;
+    padding: 165px 50px 12px;
 }
 
 .cover__title {
@@ -80,52 +79,32 @@
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
-    width: 1100px;
     display: flex;
     flex-direction: column;
-    padding: 165px 50px 12px 50px;
-    /* padding-left: 50px;
-    padding-top: 165px; */
+    gap: 20px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
 .aligned-text {
-    /* z-index: 1;
-    position: relative; */
     word-spacing: -22px;
     letter-spacing: 0.3em;
+    line-height: 115px;
 }
 
-/* .letter-spacing {
-    position: relative;
-    left: 30px;
-    word-spacing: 20px;
-    letter-spacing: 0.6em;
-} */
-
 .letter-spacing-extended {
-    /* position: relative; */
-    left: 30px;
-    word-spacing: 20px;
     letter-spacing: 0.6em;
 }
 
 .aligned-text_center {
     text-align: center;
-    /* z-index: 1;
-    position: relative; */
-    /* left: 287px; */
-    padding-right: 24px;
-    /*new*/
-    /* margin-top: 12px; */
+    line-height: 100px;
     letter-spacing: 0.3em;
 }
 
 .aligned-text_right {
     text-align: right;
-    /* z-index: 1;
-    position: relative; */
+    line-height: 100px;
     left: 583px;
     margin-top: 4px;
     letter-spacing: 0.6em;
@@ -135,17 +114,22 @@
     letter-spacing: 0.3em;
 }
 
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
 .cover__description {
+    margin-top: 135px;
     color: #FFFFFF;
     width: 100%;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 80px;
 }
 
 .cover__description-text {
     z-index: 1;
-    margin: 142px 0 62px 78px;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     font-weight: 400;
@@ -160,8 +144,6 @@
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     padding: 12px 32px 11px 31px;
-    margin-bottom: 51px;
-    margin-right: 50px;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -254,7 +236,7 @@
 }
 
 .lots__look-more {
-    margin-top: 30px;
+    margin-top: 31px;
     margin-left: 64px;
     font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
@@ -267,7 +249,6 @@
     margin: 144px 24px 0 24px;
     display: flex;
     width: 1052px;
-    /* height: 595px; */
 }
 
 .about__logo {
@@ -289,7 +270,7 @@
 }
 
 .about__column {
-    margin-top: 136px;
+    margin-top: 140px;
     display: flex;
     flex-wrap: wrap;
     width: 693px;
@@ -317,7 +298,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: 160px 50px 88px 50px;
+    margin: 156px 50px 88px 50px;
 }
 
 .address {
