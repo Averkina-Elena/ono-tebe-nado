@@ -74,6 +74,8 @@
 }
 
 .cover__title {
+    z-index: 1;
+    position: relative;
     font-family: Raleway, Arial, sans-serif;
     font-size: 100px;
     font-weight: 700;
@@ -81,44 +83,49 @@
     width: 1100px;
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
-    padding-top: 165px;
+    padding: 165px 50px 12px 50px;
+    /* padding-left: 50px;
+    padding-top: 165px; */
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
 .aligned-text {
-    z-index: 1;
-    position: relative;
-    word-spacing: -52px;
+    /* z-index: 1;
+    position: relative; */
+    word-spacing: -22px;
     letter-spacing: 0.3em;
 }
 
-.letter-spacing {
+/* .letter-spacing {
     position: relative;
     left: 30px;
     word-spacing: 20px;
     letter-spacing: 0.6em;
-}
+} */
 
 .letter-spacing-extended {
-    position: relative;
+    /* position: relative; */
     left: 30px;
     word-spacing: 20px;
     letter-spacing: 0.6em;
 }
 
 .aligned-text_center {
-    z-index: 1;
-    position: relative;
-    left: 287px;
-    margin-top: 12px;
+    text-align: center;
+    /* z-index: 1;
+    position: relative; */
+    /* left: 287px; */
+    padding-right: 24px;
+    /*new*/
+    /* margin-top: 12px; */
     letter-spacing: 0.3em;
 }
 
 .aligned-text_right {
-    z-index: 1;
-    position: relative;
+    text-align: right;
+    /* z-index: 1;
+    position: relative; */
     left: 583px;
     margin-top: 4px;
     letter-spacing: 0.6em;
